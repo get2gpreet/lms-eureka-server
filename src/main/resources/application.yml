@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: lms-eureka-server
+
+server:
+  port: 8761
+
+eureka:
+  client:
+    register-with-eureka: false  # The server itself does NOT register
+    fetch-registry: false         # It does NOT fetch registry from other servers
+
+
